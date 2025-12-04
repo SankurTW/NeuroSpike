@@ -1,4 +1,4 @@
-# NeuroSpike 🧠⚡
+# NeuroSpike 
 
 **A comprehensive Spiking Neural Network framework for event-based neuromorphic computing**
 
@@ -283,5 +283,6 @@ For questions or issues:
 - Email: neurospike@example.com
 
 ---
+
 
 **Built with ❤️ for neuromorphic computing**
