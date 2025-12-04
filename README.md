@@ -7,7 +7,7 @@
 
 ---
 
-## 🌟 Overview
+## Overview
 
 NeuroSpike is a Python framework for building and training Spiking Neural Networks (SNNs) with support for:
 
@@ -17,7 +17,7 @@ NeuroSpike is a Python framework for building and training Spiking Neural Networ
 - **Multi-Layer Networks** - Configurable deep architectures
 - **Comprehensive Visualization** - Rich plotting utilities
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 NeuroSpike Architecture
@@ -38,7 +38,7 @@ NeuroSpike Architecture
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 📦 Installation
+## Installation
 
 ### Requirements
 
@@ -46,7 +46,7 @@ NeuroSpike Architecture
 - NumPy
 - Matplotlib
 
-## 🚀 Quick Start
+## Quick Start
 
 ```python
 from neurospike import (
@@ -83,7 +83,7 @@ visualizer = Visualizer()
 visualizer.plot_network_activity(network.activity_history)
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 neurospike/
@@ -105,7 +105,7 @@ neurospike/
 └── setup.py                 # Installation script
 ```
 
-## 🎯 Features
+## Features
 
 ### Neuron Models
 
@@ -135,7 +135,7 @@ neurospike/
 - STDP learning windows
 - Network architecture diagrams
 
-## 📊 Example Results
+## Example Results
 
 ### Training Performance
 
@@ -155,7 +155,7 @@ Layer 0: 128 → 256 neurons
   Active neurons: 243/256
 ```
 
-## 🔬 Advanced Usage
+## Advanced Usage
 
 ### Custom Neuron Parameters
 
@@ -190,7 +190,7 @@ events = event_stream.generate_synthetic_events(
 )
 ```
 
-## 📖 Documentation
+## Documentation
 
 ### Core Classes
 
@@ -221,15 +221,16 @@ network.save_weights('model.npy')
 network.load_weights('model.npy')
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see LICENSE file for details.
 
-## 📚 References
+## References
 
 1. **LIF Neurons**: Gerstner & Kistler (2002) - "Spiking Neuron Models"
 2. **STDP**: Bi & Poo (1998) - "Synaptic Modifications in Cultured Hippocampal Neurons"
 3. **Event-based Vision**: Gallego et al. (2020) - "Event-based Vision: A Survey"
+
 
 
 
