@@ -46,20 +46,6 @@ NeuroSpike Architecture
 - NumPy
 - Matplotlib
 
-### Install
-
-```bash
-# Clone repository
-git clone https://github.com/yourusername/neurospike.git
-cd neurospike
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Install package
-pip install -e .
-```
-
 ## 🚀 Quick Start
 
 ```python
@@ -235,31 +221,6 @@ network.save_weights('model.npy')
 network.load_weights('model.npy')
 ```
 
-## 🧪 Running Examples
-
-### Basic Demo
-
-```bash
-cd examples
-python demo.py
-```
-
-### Run Tests
-
-```bash
-python -m pytest tests/
-```
-
-## 🤝 Contributing
-
-Contributions welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see LICENSE file for details.
@@ -270,19 +231,6 @@ This project is licensed under the MIT License - see LICENSE file for details.
 2. **STDP**: Bi & Poo (1998) - "Synaptic Modifications in Cultured Hippocampal Neurons"
 3. **Event-based Vision**: Gallego et al. (2020) - "Event-based Vision: A Survey"
 
-## 🙏 Acknowledgments
-
-- Inspired by biological neural networks
-- Built for neuromorphic computing research
-- Designed for event-based sensors (DVS, ATIS, etc.)
-
-## 📧 Contact
-
-For questions or issues:
-- Open an issue on GitHub
-- Email: neurospike@example.com
-
----
 
 
-**Built with ❤️ for neuromorphic computing**
+
